@@ -1,5 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WT_1Elfp)
 
+deploy: https://chimerical-smakager-edc549.netlify.app/
+
 # Taller en clase
 ## 8:00am - 8:30am!
 
