@@ -1,17 +1,23 @@
 {
-  "name": "taller-en-clase-auth-roles",
+  "name": "taller-xpress",
   "version": "1.0.0",
-  "description": "Express API: /login (token) y /request (roles)",
-  "type": "commonjs",
-  "main": "server.js",
+  "private": true,
+  "description": "Taller Express: /login (JWT) y /request por roles",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "vercel:dev": "vercel dev",
+    "vercel:deploy": "vercel deploy"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
-    "dotenv": "^16.6.1",
     "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "serverless-http": "^4.0.0"
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "vercel": "^47.0.5"
   }
 }
